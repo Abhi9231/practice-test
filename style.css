@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+.horizontal-list{
+    list-style: none;
+    margin: 0px;
+    text-align: left;
+    background-color: black;
+padding: 10px;
+font-weight: 900;
+padding-left: 20px;
+}
+.horizontal-list li{
+display: inline-block;
+margin: 0px 8px 8px 0px;
+font-weight: 100;
+font-size: 1.1rem;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.horizontal-list li a:hover{
+    color: lightgray;
+    background-color: white;
+color: black;
+}
+.Menu{
+    height: 100vh;
+    width: 35%;
+    background-color: lightgray;
+}
+h2{
+    padding: 20px 10px;
+    font-size:20px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Link{
+text-decoration: none;
+color: black;
+padding: 10px;
+font-size: 20px;
+}
+.Link:hover{
+    color: white;
+    border: none;
+    background-color: black;
+}
+.container{
+display: flex;
+flex-direction: row;
+}
+.div2{
+height: 90vh;
+width: 75%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.div3{
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    height: 90vh;
+}
+.container1{
+    display: flex;
+    padding: 80px 10px;
+}
+.AD1{
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+   height: 70px;
+}
+.AD2{
+    border: 1px solid lightgray;
+    height:120px;
+    margin-bottom:50px;
+}
+.AD1 h3{
+   padding-top: 20px;
+  
+}
+.AD2 h3{
+   padding-top: 60px;
+}
+.container1 h1{
+    color: #009696;
+    padding-top: 30px;
+   
+}
+.container1 p{
+    line-height: 25px;
+    font-size: 16px;
+
+}
+.footer{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(206, 36, 36);
+}
+.horizontal-list li{
+display: inline-block;
+margin: 0px 8px 8px 0px;
+font-weight: 100;
+font-size: 1.1rem;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.horizontal-list li a:hover{
+    color: lightgray;
+    background-color: white;
+color: black;
+}
+.pageno{
+padding-top: 80px;
+padding-left: 80px;
+    display: flex;
+justify-content: center;
+}
+.fp{
+height:40px;
+width: 40px;
+padding-top: 15px;
+align-items: center;
+text-align: center;
+margin: 10px;
+}
+.fp:hover{
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+}
+.footer{
+    height: 90px;
+    width: 100%;
+    background-color: grey;
+    margin-left: 17%;
+margin-top: 0%;
+padding-top: 30px;
+padding-left: 20px;
+align-items: center;
+}
+.text-highlight{
+    text-decoration: underline;
+}
+.footer2{
+    background-color: rgb(39, 38, 38);
+    margin-left: 17%;
+    padding-left: 20px;
+}
+.text-highlight{
+    text-decoration: underline;
+}
+
+
